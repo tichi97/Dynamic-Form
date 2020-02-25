@@ -1,0 +1,56 @@
+body{
+    padding:0;
+    margin:0;
+    min-height:100vh;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.container{
+
+}
+p,input,label,button{
+    font-family: 'Raleway', sans-serif;
+    font-size:1.2rem;
+    letter-spacing: 1px;
+}
+.form{
+    padding:3rem;
+    background-color: #ffffffcc;
+    width:80%;
+    margin:auto;
+    margin-top: 5rem;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+}
+input{
+    margin-bottom:1rem;
+}
+h1{
+    font-family: 'Baskervville', serif;
+    letter-spacing: 0.5rem;
+}
+h2{
+    font-family: 'Baskervville', serif;
+    letter-spacing: 0.2rem;
+}
+#options{
+    padding:1rem;
+}
+#options .form-check{
+    padding:1rem;
+}
+.piecont{
+    width:80%;
+    margin:auto;
+    margin-top: 3rem;
+}
+#results{
+
+    /*background-color: #ffffffcc;
+    width:80%;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    */
+}
+.main-svg{
+    /*background: #ffffffcc;*/
+}
