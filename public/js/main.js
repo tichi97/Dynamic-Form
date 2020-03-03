@@ -11,26 +11,19 @@ function addRow() {
         fgroup.classList.add("form-group");
         form.appendChild(fgroup);
 
-        var labeltext = document.createTextNode("Enter an answer");
-
-        var label = document.createElement("label");
-        label.for ="exampleFormControlInput1";
-        label.appendChild(labeltext);
-        fgroup.appendChild(label);
-
-
         var inp = document.createElement("input");
         inp.type = "text";
         inp.classList.add("form-control");
         inp.id="exampleFormControlInput1";
         inp.name="a";
+        inp.required=true;
         fgroup.appendChild(inp);
 
         var btntxt = document.createTextNode("Remove");
         var btn = document.createElement("button");
         btn.type = "button";
         btn.classList.add("btn");
-        btn.classList.add("btn-secondary");
+        btn.classList.add("btn-outline-secondary");
         btn.onclick = function() {remove()};
         btn.appendChild(btntxt);
         fgroup.appendChild(btn);

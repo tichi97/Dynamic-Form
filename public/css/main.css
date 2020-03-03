@@ -2,22 +2,33 @@ body{
     padding:0;
     margin:0;
     min-height:100vh;
-    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    background-image:url('../img/background.svg');
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    animation: animatedBackground 40s linear infinite;
 }
-.container{
 
+@keyframes animatedBackground {
+  0% { background-size: 100% 100%; }
+  50% { background-size: 110% 100%; }
+  100%{ background-size: 100% 100%; }
+}
+
+.container-fluid{
+   /* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    opacity:40%;*/
 }
 p,input,label,button{
     font-family: 'Raleway', sans-serif;
-    font-size:1.2rem;
-    letter-spacing: 1px;
+    font-size:1.1rem;
+    /*letter-spacing: 1px;*/
 }
 .form{
     padding:3rem;
     background-color: #ffffffcc;
-    width:80%;
+    width:70%;
     margin:auto;
-    margin-top: 5rem;
     border: 1px solid #ffffff;
     border-radius: 25px;
 }
@@ -25,8 +36,9 @@ input{
     margin-bottom:1rem;
 }
 h1{
-    font-family: 'Baskervville', serif;
-    letter-spacing: 0.5rem;
+    font-family: 'Pacifico';
+    color:#17a2b8;;
+    /*letter-spacing: 0.5rem;*/
 }
 h2{
     font-family: 'Baskervville', serif;
@@ -41,16 +53,10 @@ h2{
 .piecont{
     width:80%;
     margin:auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
-#results{
 
-    /*background-color: #ffffffcc;
-    width:80%;
-    border: 1px solid #ffffff;
-    border-radius: 25px;
-    */
-}
-.main-svg{
-    /*background: #ffffffcc;*/
+button i{
+    font-size: 2em;
+    color:#17a2b8;;
 }
